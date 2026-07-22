@@ -1,0 +1,351 @@
+incident_id,timestamp,day_of_week,hour_of_day,attack_type,severity,system_targeted,department_affected,response_time_hrs,systems_affected,data_loss_occurred,outcome
+INC0001,2025-09-09 20:00,1,20,Brute Force,High,Database,IT,2.6,4,0,Contained
+INC0002,2025-03-17 22:00,0,22,Man-in-the-Middle,Medium,Database,Engineering,1.5,1,0,
+INC0003,2025-11-10 16:00,0,16,DDoS,Low,Network Infrastructure,IT,12.8,1,0,Resolved
+INC0004,2025-04-28 05:00,0,5,SQL Injection,Medium,Authentication System,Finance,5.7,2,0,Escalated
+INC0005,2025-04-16 13:00,2,13,Insider Threat,High,Database,HR,1.9,1,1,Resolved
+INC0006,2025-08-28 02:00,3,2,Phishing,Medium,Authentication System,Legal,11.7,1,0,Contained
+INC0007,2025-09-10 02:00,2,2,Ransomware,High,Endpoint,Legal,3.6,1,1,Resolved
+INC0008,2025-10-13 20:00,0,20,Insider Threat,High,Web Server,Research,3.6,2,1,Resolved
+INC0009,2025-05-13 18:00,1,18,DDoS,Critical,Endpoint,Operations,0.9,3,0,Resolved
+INC0010,2025-03-30 05:00,6,5,DDoS,Low,Endpoint,Legal,10.8,2,0,Resolved
+INC0011,2025-12-24 05:00,2,5,DDoS,Critical,Email Server,HR,2.2,5,0,Escalated
+INC0012,2025-02-03 22:00,0,22,Brute Force,Low,Database,Research,,1,0,Resolved
+INC0013,2025-10-05 12:00,6,12,Phishing,High,Database,IT,2.5,1,0,Escalated
+INC0014,2025-02-23 06:00,6,6,Insider Threat,High,Email Server,Engineering,3.8,2,1,Contained
+INC0015,2025-03-18 21:00,1,21,Insider Threat,High,Network Infrastructure,Research,3.1,4,0,Resolved
+INC0016,2025-09-03 02:00,2,2,Brute Force,Low,Network Infrastructure,Finance,8.0,2,0,Contained
+INC0017,2025-07-17 21:00,3,21,SQL Injection,High,Authentication System,HR,1.1,1,0,Ongoing
+INC0018,2025-10-03 02:00,4,2,Man-in-the-Middle,Critical,Web Server,Legal,0.9,4,0,Data Breach
+INC0019,2025-08-13 16:00,2,16,Phishing,Medium,Authentication System,Research,4.2,2,0,Resolved
+INC0020,2025-07-19 21:00,5,21,DDoS,Low,Network Infrastructure,Finance,14.1,1,0,Ongoing
+INC0021,2025-02-26 21:00,2,21,Phishing,Critical,Web Server,IT,2.4,2,0,Contained
+INC0022,2025-11-02 12:00,6,12,Man-in-the-Middle,Medium,Endpoint,IT,5.5,2,0,Resolved
+INC0023,2025-08-09 18:00,5,18,SQL Injection,Medium,Cloud Storage,,6.7,2,0,Contained
+INC0024,2025-04-29 00:00,1,0,Ransomware,High,Authentication System,Finance,0.9,2,1,Resolved
+INC0025,2025-09-26 05:00,4,5,Ransomware,Low,Endpoint,Engineering,2.5,1,0,Contained
+INC0026,2025-05-17 17:00,5,17,Ransomware,Medium,Email Server,Operations,9.4,2,0,Resolved
+INC0027,2025-05-16 18:00,4,18,Ransomware,Low,Authentication System,Engineering,4.4,1,0,Resolved
+INC0028,2025-09-24 02:00,2,2,Insider Threat,Medium,Email Server,Finance,4.9,2,0,Resolved
+INC0029,2025-10-18 01:00,5,1,Man-in-the-Middle,High,Network Infrastructure,Operations,3.4,1,0,Data Breach
+INC0030,2025-10-26 10:00,6,10,SQL Injection,High,Network Infrastructure,Operations,,1,0,
+INC0031,2025-02-26 07:00,2,7,Brute Force,High,Network Infrastructure,Engineering,4.4,1,0,Contained
+INC0032,2025-12-03 15:00,2,15,Phishing,Medium,Database,,6.3,2,0,Contained
+INC0033,2025-04-25 00:00,4,0,Zero-Day Exploit,Medium,Email Server,Operations,5.0,1,0,Contained
+INC0034,2025-09-03 02:00,2,2,Man-in-the-Middle,Low,Endpoint,Finance,12.3,2,0,Resolved
+INC0035,2025-05-23 18:00,4,18,Ransomware,Low,Authentication System,Research,16.8,2,0,Resolved
+INC0036,2025-08-07 03:00,3,3,DDoS,Low,Cloud Storage,,14.8,1,0,Resolved
+INC0037,2025-02-16 17:00,6,17,Zero-Day Exploit,Medium,Cloud Storage,,6.6,2,0,Resolved
+INC0038,2025-09-05 14:00,4,14,Insider Threat,Medium,Authentication System,Research,2.5,2,0,Resolved
+INC0039,2025-12-27 09:00,5,9,Man-in-the-Middle,Medium,Cloud Storage,Research,6.5,2,0,Resolved
+INC0040,2025-10-19 23:00,6,23,SQL Injection,Low,Network Infrastructure,Finance,6.9,2,0,Resolved
+INC0041,2025-08-18 08:00,0,8,Brute Force,Critical,Cloud Storage,Finance,1.2,2,0,Data Breach
+INC0042,2025-06-24 09:00,1,9,Phishing,Low,Database,Operations,13.8,2,0,Resolved
+INC0043,2025-02-25 20:00,1,20,Man-in-the-Middle,High,Email Server,,4.5,3,0,Data Breach
+INC0044,2025-02-23 09:00,6,9,DDoS,Medium,Email Server,HR,6.8,1,0,Escalated
+INC0045,2025-11-10 21:00,0,21,DDoS,Medium,Email Server,Legal,0.1,2,0,Data Breach
+INC0046,2025-09-05 04:00,4,4,Insider Threat,Critical,Network Infrastructure,Legal,0.6,2,1,Escalated
+INC0047,2025-12-31 18:00,2,18,DDoS,Critical,Cloud Storage,Legal,0.4,2,0,Contained
+INC0048,2025-06-01 07:00,6,7,Insider Threat,Low,Cloud Storage,Research,4.4,2,0,
+INC0049,2025-12-20 01:00,5,1,Phishing,Medium,Network Infrastructure,HR,7.8,2,0,Resolved
+INC0050,2025-07-17 19:00,3,19,Insider Threat,High,Database,IT,1.6,2,1,Contained
+INC0051,2025-07-17 03:00,3,3,Insider Threat,High,Endpoint,Operations,1.0,1,1,Contained
+INC0052,2025-04-10 18:00,3,18,Zero-Day Exploit,High,Web Server,Finance,2.0,3,0,
+INC0053,2025-08-17 13:00,6,13,Zero-Day Exploit,High,Endpoint,Engineering,4.4,4,0,Contained
+INC0054,2025-01-26 01:00,6,1,Insider Threat,Medium,Database,Engineering,4.1,1,0,Escalated
+INC0055,2025-09-30 10:00,1,10,Ransomware,Low,Cloud Storage,Finance,11.2,2,0,Contained
+INC0056,2025-12-30 13:00,1,13,Phishing,High,Database,Operations,1.2,2,0,Escalated
+INC0057,2025-01-25 02:00,5,2,SQL Injection,High,Email Server,IT,3.7,1,1,Escalated
+INC0058,2025-01-12 03:00,6,3,Brute Force,Medium,Web Server,Research,2.2,2,0,Contained
+INC0059,2025-04-02 13:00,2,13,Brute Force,Medium,Authentication System,Operations,3.4,2,0,Resolved
+INC0060,2025-03-28 04:00,4,4,DDoS,High,Database,Research,3.7,3,0,Resolved
+INC0061,2025-11-29 07:00,5,7,SQL Injection,Critical,Database,Engineering,2.2,1,1,Ongoing
+INC0062,2025-01-13 11:00,0,11,Insider Threat,Medium,Authentication System,IT,7.4,2,0,Resolved
+INC0063,2025-12-15 17:00,0,17,SQL Injection,High,Network Infrastructure,IT,2.7,1,1,Contained
+INC0064,2025-04-11 18:00,4,18,Brute Force,Medium,Web Server,Operations,3.5,2,0,Contained
+INC0065,2025-01-15 22:00,2,22,Brute Force,Low,Network Infrastructure,Finance,9.7,1,0,Resolved
+INC0066,2025-10-29 06:00,2,6,SQL Injection,High,Web Server,HR,1.2,2,1,Data Breach
+INC0067,2025-05-21 16:00,2,16,Zero-Day Exploit,Medium,Endpoint,HR,5.7,2,0,Resolved
+INC0068,2025-11-30 16:00,6,16,Ransomware,High,Network Infrastructure,Research,4.9,3,1,Data Breach
+INC0069,2025-12-03 11:00,2,11,Brute Force,Low,Email Server,Research,0.1,2,0,Contained
+INC0070,2025-12-18 21:00,3,21,Zero-Day Exploit,Medium,Endpoint,Legal,12.6,1,0,Resolved
+INC0071,2025-01-23 10:00,3,10,SQL Injection,High,Database,Operations,3.7,2,1,Ongoing
+INC0072,2025-11-07 19:00,4,19,SQL Injection,Medium,Web Server,Legal,6.1,1,0,Contained
+INC0073,2025-12-09 12:00,1,12,Ransomware,High,Authentication System,Legal,5.2,2,1,Contained
+INC0074,2025-03-08 15:00,5,15,Insider Threat,Low,Authentication System,Research,7.1,1,0,Resolved
+INC0075,2025-07-05 09:00,5,9,Zero-Day Exploit,High,Cloud Storage,Finance,4.6,1,1,Resolved
+INC0076,2025-08-24 18:00,6,18,SQL Injection,High,Cloud Storage,Legal,0.1,2,0,Ongoing
+INC0077,2025-01-25 19:00,5,19,Ransomware,Medium,Database,,7.7,1,0,Contained
+INC0078,2025-12-24 23:00,2,23,Zero-Day Exploit,Medium,Authentication System,Engineering,3.1,1,0,Resolved
+INC0079,2025-07-06 05:00,6,5,Brute Force,High,Authentication System,Research,,2,0,Resolved
+INC0080,2025-07-03 01:00,3,1,SQL Injection,Medium,Web Server,Engineering,2.8,2,0,Resolved
+INC0081,2025-01-16 10:00,3,10,Insider Threat,Low,Database,Engineering,4.3,1,0,Contained
+INC0082,2025-08-17 17:00,6,17,Insider Threat,Low,Network Infrastructure,HR,14.4,2,0,Contained
+INC0083,2025-07-30 18:00,2,18,Ransomware,Low,Authentication System,Research,0.8,2,0,Resolved
+INC0084,2025-02-21 09:00,4,9,Insider Threat,High,Endpoint,IT,0.7,5,0,Contained
+INC0085,2025-10-03 00:00,4,0,Phishing,Low,Web Server,Finance,13.8,1,0,Contained
+INC0086,2025-07-30 18:00,2,18,Zero-Day Exploit,Medium,Network Infrastructure,Research,0.7,1,0,Contained
+INC0087,2025-09-04 21:00,3,21,Phishing,Medium,Network Infrastructure,IT,0.1,1,0,Data Breach
+INC0088,2025-11-22 13:00,5,13,SQL Injection,Critical,Email Server,Operations,1.9,2,1,Resolved
+INC0089,2025-01-04 12:00,5,12,Ransomware,Medium,Network Infrastructure,Engineering,3.8,2,0,Contained
+INC0090,2025-09-10 04:00,2,4,Ransomware,Low,Cloud Storage,Operations,11.6,2,0,Ongoing
+INC0091,2025-07-31 03:00,3,3,DDoS,Low,Cloud Storage,Finance,11.6,2,0,Contained
+INC0092,2025-09-07 05:00,6,5,Brute Force,High,Cloud Storage,Legal,5.1,4,0,Resolved
+INC0093,2025-11-12 03:00,2,3,DDoS,Medium,Email Server,Legal,7.1,1,0,Resolved
+INC0094,2025-11-23 14:00,6,14,Zero-Day Exploit,Medium,Network Infrastructure,Engineering,2.8,1,0,Contained
+INC0095,2025-06-27 04:00,4,4,Brute Force,Low,Cloud Storage,IT,0.5,2,0,Resolved
+INC0096,2025-03-05 12:00,2,12,DDoS,Medium,Endpoint,Legal,4.3,1,0,Resolved
+INC0097,2025-06-06 13:00,4,13,Brute Force,High,Web Server,Finance,1.1,5,0,Data Breach
+INC0098,2025-12-11 06:00,3,6,Brute Force,High,Endpoint,Finance,3.4,3,0,Resolved
+INC0099,2025-10-03 16:00,4,16,Brute Force,Medium,Authentication System,Engineering,6.4,1,0,Resolved
+INC0100,2025-11-17 01:00,0,1,Phishing,High,Authentication System,Operations,3.5,2,0,Ongoing
+INC0101,2025-05-01 23:00,3,23,SQL Injection,Low,Database,Operations,12.5,2,0,Escalated
+INC0102,2025-03-08 17:00,5,17,Man-in-the-Middle,Low,Authentication System,Research,13.3,2,0,Resolved
+INC0103,2025-04-07 11:00,0,11,SQL Injection,Low,Endpoint,Finance,18.2,2,0,Contained
+INC0104,2025-03-04 16:00,1,16,DDoS,Low,Email Server,HR,13.2,2,0,Resolved
+INC0105,2025-07-16 18:00,2,18,Insider Threat,Medium,Authentication System,Engineering,9.9,2,0,Contained
+INC0106,2025-01-12 22:00,6,22,SQL Injection,Low,Network Infrastructure,HR,2.7,1,0,Resolved
+INC0107,2025-07-14 07:00,0,7,Zero-Day Exploit,Critical,Endpoint,Legal,1.2,3,0,Escalated
+INC0108,2025-01-11 19:00,5,19,Man-in-the-Middle,Low,Web Server,HR,6.3,1,0,Resolved
+INC0109,2025-10-17 00:00,4,0,SQL Injection,Low,Endpoint,HR,12.6,1,0,Contained
+INC0110,2025-01-14 15:00,1,15,DDoS,Medium,Authentication System,Operations,,1,0,Resolved
+INC0111,2025-06-03 07:00,1,7,Insider Threat,Critical,Network Infrastructure,Engineering,1.6,5,0,Resolved
+INC0112,2025-12-31 23:00,2,23,Zero-Day Exploit,High,Network Infrastructure,IT,3.6,3,0,Contained
+INC0113,2025-05-26 00:00,0,0,Phishing,Critical,Web Server,Research,0.5,4,0,Escalated
+INC0114,2025-05-08 11:00,3,11,Man-in-the-Middle,High,Database,Finance,4.7,5,0,Resolved
+INC0115,2025-10-03 09:00,4,9,Phishing,Medium,Network Infrastructure,Engineering,8.8,2,0,Contained
+INC0116,2025-09-14 15:00,6,15,Zero-Day Exploit,High,Database,IT,0.7,3,1,Resolved
+INC0117,2025-02-23 17:00,6,17,Brute Force,Medium,Database,Legal,,1,0,Resolved
+INC0118,2025-10-02 09:00,3,9,Phishing,Medium,Authentication System,Legal,6.2,2,0,Resolved
+INC0119,2025-01-27 21:00,0,21,Insider Threat,Medium,Web Server,IT,9.5,2,0,Resolved
+INC0120,2025-01-06 03:00,0,3,DDoS,Medium,Web Server,Operations,3.9,2,0,Resolved
+INC0121,2025-01-23 19:00,3,19,Man-in-the-Middle,Low,Endpoint,Operations,4.5,1,0,Resolved
+INC0122,2025-11-26 06:00,2,6,Brute Force,Medium,Email Server,HR,3.8,2,0,Contained
+INC0123,2025-05-17 23:00,5,23,Ransomware,Low,Endpoint,Operations,6.4,2,0,Resolved
+INC0124,2025-09-13 23:00,5,23,Ransomware,Medium,Email Server,HR,8.7,1,0,Ongoing
+INC0125,2025-07-17 06:00,3,6,Phishing,High,Email Server,Legal,2.3,5,0,Ongoing
+INC0126,2025-03-13 11:00,3,11,Phishing,Critical,Web Server,HR,0.8,1,0,Escalated
+INC0127,2025-07-30 21:00,2,21,Phishing,Critical,Cloud Storage,Engineering,0.7,1,0,Resolved
+INC0128,2025-09-03 01:00,2,1,SQL Injection,High,Network Infrastructure,HR,4.4,2,0,Resolved
+INC0129,2025-04-09 13:00,2,13,SQL Injection,Medium,Endpoint,HR,5.0,2,0,Contained
+INC0130,2025-04-17 20:00,3,20,DDoS,Medium,Endpoint,Finance,5.3,2,0,Resolved
+INC0131,2025-02-13 02:00,3,2,Man-in-the-Middle,High,Web Server,HR,1.0,1,0,Data Breach
+INC0132,2025-08-01 01:00,4,1,Phishing,Low,Database,Engineering,14.3,2,0,Resolved
+INC0133,2025-03-08 10:00,5,10,Insider Threat,Low,Authentication System,HR,5.5,2,0,Contained
+INC0134,2025-12-13 13:00,5,13,Zero-Day Exploit,Medium,Database,Finance,8.7,1,0,Contained
+INC0135,2025-03-09 03:00,6,3,Insider Threat,Medium,Authentication System,Operations,6.6,2,0,Ongoing
+INC0136,2025-08-10 18:00,6,18,Zero-Day Exploit,Critical,Authentication System,Research,1.3,2,1,Resolved
+INC0137,2025-08-12 03:00,1,3,Phishing,High,Web Server,Legal,3.8,2,0,Escalated
+INC0138,2025-02-12 21:00,2,21,SQL Injection,Medium,Authentication System,Engineering,5.9,1,0,Resolved
+INC0139,2025-01-10 20:00,4,20,Phishing,Medium,Database,Engineering,2.0,2,0,Contained
+INC0140,2025-10-08 23:00,2,23,Ransomware,Medium,Database,Finance,7.6,2,0,Contained
+INC0141,2025-12-01 02:00,0,2,Insider Threat,High,Authentication System,Finance,3.1,1,0,Resolved
+INC0142,2025-11-10 20:00,0,20,Zero-Day Exploit,Critical,Network Infrastructure,HR,0.9,5,1,Resolved
+INC0143,2025-10-26 02:00,6,2,Man-in-the-Middle,Low,Email Server,Research,0.1,1,0,Escalated
+INC0144,2025-06-13 22:00,4,22,Man-in-the-Middle,High,Database,Operations,5.4,2,0,Contained
+INC0145,2025-06-17 00:00,1,0,Zero-Day Exploit,High,Endpoint,HR,4.2,5,1,Contained
+INC0146,2025-03-19 16:00,2,16,Zero-Day Exploit,Low,Email Server,HR,21.4,1,0,Contained
+INC0147,2025-09-16 04:00,1,4,Zero-Day Exploit,Medium,Database,Operations,7.3,2,0,Resolved
+INC0148,2025-03-07 01:00,4,1,Man-in-the-Middle,Low,Network Infrastructure,Finance,10.3,2,0,Contained
+INC0149,2025-11-30 18:00,6,18,Man-in-the-Middle,High,Authentication System,Finance,4.6,3,0,Resolved
+INC0150,2025-12-17 03:00,2,3,DDoS,High,Database,Operations,4.0,4,0,Ongoing
+INC0151,2025-03-12 07:00,2,7,Brute Force,High,Email Server,Operations,2.2,3,0,
+INC0152,2025-02-05 18:00,2,18,DDoS,Low,Authentication System,HR,7.7,1,0,
+INC0153,2025-09-15 11:00,0,11,Insider Threat,Low,Web Server,HR,3.3,2,0,Contained
+INC0154,2025-01-03 05:00,4,5,Ransomware,Medium,Endpoint,Research,4.2,1,0,Contained
+INC0155,2025-09-06 17:00,5,17,Brute Force,Low,Network Infrastructure,Research,4.2,2,0,Contained
+INC0156,2025-08-30 19:00,5,19,Brute Force,High,Web Server,HR,4.1,3,0,Contained
+INC0157,2025-02-27 02:00,3,2,Insider Threat,Medium,Database,Finance,,1,0,Resolved
+INC0158,2025-10-07 06:00,1,6,Zero-Day Exploit,High,Web Server,HR,0.4,5,0,Resolved
+INC0159,2025-06-28 05:00,5,5,SQL Injection,Medium,Database,Finance,3.9,2,0,Resolved
+INC0160,2025-04-20 11:00,6,11,Zero-Day Exploit,Medium,Cloud Storage,HR,6.1,1,0,Ongoing
+INC0161,2025-03-06 20:00,3,20,Brute Force,Medium,Web Server,IT,9.6,2,0,Contained
+INC0162,2025-03-05 16:00,2,16,SQL Injection,Medium,Cloud Storage,Finance,3.7,2,0,Contained
+INC0163,2025-09-20 19:00,5,19,Man-in-the-Middle,High,Cloud Storage,Operations,0.9,1,0,Resolved
+INC0164,2025-08-12 08:00,1,8,DDoS,Medium,Cloud Storage,Engineering,8.8,1,0,Resolved
+INC0165,2025-02-25 22:00,1,22,Insider Threat,Medium,Email Server,IT,8.3,2,0,Ongoing
+INC0166,2025-07-03 22:00,3,22,Brute Force,High,Authentication System,Operations,3.7,1,0,Data Breach
+INC0167,2025-08-23 10:00,5,10,SQL Injection,Medium,Cloud Storage,HR,7.0,2,0,Resolved
+INC0168,2025-04-04 06:00,4,6,Man-in-the-Middle,Medium,Endpoint,IT,3.6,1,0,Escalated
+INC0169,2025-07-25 20:00,4,20,Zero-Day Exploit,Critical,Endpoint,Research,1.3,4,1,Resolved
+INC0170,2025-09-02 04:00,1,4,Phishing,High,Endpoint,Finance,5.1,2,0,Contained
+INC0171,2025-05-12 20:00,0,20,Phishing,Medium,Cloud Storage,Legal,7.9,2,0,Contained
+INC0172,2025-07-13 18:00,6,18,Man-in-the-Middle,Medium,Cloud Storage,Legal,1.4,2,0,Escalated
+INC0173,2025-08-29 21:00,4,21,SQL Injection,High,Authentication System,Finance,5.5,1,1,Contained
+INC0174,2025-07-20 17:00,6,17,SQL Injection,Low,Web Server,HR,11.6,2,0,Resolved
+INC0175,2025-01-17 19:00,4,19,Man-in-the-Middle,Critical,Endpoint,Finance,1.2,1,0,Ongoing
+INC0176,2025-12-17 01:00,2,1,Brute Force,Medium,Web Server,Research,0.1,2,0,Resolved
+INC0177,2025-10-26 23:00,6,23,Insider Threat,Medium,Cloud Storage,HR,0.2,1,0,Data Breach
+INC0178,2025-12-23 18:00,1,18,Man-in-the-Middle,Medium,Database,Legal,2.4,1,0,Contained
+INC0179,2025-03-31 05:00,0,5,Zero-Day Exploit,High,Web Server,Operations,3.1,5,0,Contained
+INC0180,2025-12-31 19:00,2,19,Ransomware,Low,Network Infrastructure,Finance,7.2,1,0,Contained
+INC0181,2025-08-16 13:00,5,13,Ransomware,High,Endpoint,Legal,1.2,3,1,Ongoing
+INC0182,2025-06-11 16:00,2,16,Man-in-the-Middle,High,Authentication System,IT,4.7,4,0,Contained
+INC0183,2025-10-18 17:00,5,17,Insider Threat,Medium,Authentication System,Operations,7.2,2,0,Contained
+INC0184,2025-08-23 19:00,5,19,Brute Force,Medium,Endpoint,Operations,3.7,2,0,Resolved
+INC0185,2025-04-18 12:00,4,12,DDoS,Medium,Database,HR,3.2,2,0,Contained
+INC0186,2025-10-25 03:00,5,3,Ransomware,Medium,Cloud Storage,Engineering,3.3,1,0,Contained
+INC0187,2025-01-13 19:00,0,19,DDoS,High,Network Infrastructure,Research,3.7,5,0,Resolved
+INC0188,2025-08-11 19:00,0,19,Insider Threat,Critical,Authentication System,Finance,1.3,5,1,Contained
+INC0189,2025-11-01 14:00,5,14,SQL Injection,High,Web Server,Operations,3.4,3,1,Escalated
+INC0190,2025-05-01 09:00,3,9,Brute Force,Critical,Email Server,Engineering,1.1,2,0,Escalated
+INC0191,2025-08-09 09:00,5,9,DDoS,Low,Cloud Storage,Legal,6.5,2,0,Escalated
+INC0192,2025-04-02 16:00,2,16,Man-in-the-Middle,Medium,Database,Operations,7.0,2,0,Resolved
+INC0193,2025-12-19 12:00,4,12,Brute Force,Medium,Network Infrastructure,Finance,8.7,2,0,Resolved
+INC0194,2025-04-25 09:00,4,9,Zero-Day Exploit,Low,Web Server,Operations,7.0,1,0,Escalated
+INC0195,2025-10-02 05:00,3,5,Brute Force,Medium,Email Server,HR,0.1,2,0,Resolved
+INC0196,2025-10-22 08:00,2,8,Insider Threat,Low,Database,Engineering,14.1,2,0,Escalated
+INC0197,2025-04-11 16:00,4,16,Ransomware,High,Email Server,HR,2.1,4,1,Contained
+INC0198,2025-11-22 04:00,5,4,Brute Force,High,Authentication System,Finance,2.7,4,0,Resolved
+INC0199,2025-09-25 10:00,3,10,Zero-Day Exploit,High,Authentication System,Legal,1.5,1,1,Data Breach
+INC0200,2025-07-20 21:00,6,21,Zero-Day Exploit,High,Network Infrastructure,IT,0.1,5,1,Data Breach
+INC0201,2025-11-15 06:00,5,6,Brute Force,Medium,Web Server,Legal,5.4,1,0,Resolved
+INC0202,2025-12-22 03:00,0,3,Insider Threat,Medium,Web Server,Finance,,1,0,Resolved
+INC0203,2025-02-25 20:00,1,20,SQL Injection,Medium,Email Server,Finance,2.8,1,0,Ongoing
+INC0204,2025-03-23 16:00,6,16,Man-in-the-Middle,High,Authentication System,Engineering,2.5,5,0,Contained
+INC0205,2025-05-07 16:00,2,16,SQL Injection,Medium,Endpoint,Operations,7.5,1,0,Resolved
+INC0206,2025-10-01 08:00,2,8,Man-in-the-Middle,Critical,Authentication System,Engineering,1.9,2,0,Contained
+INC0207,2025-10-04 16:00,5,16,Insider Threat,Medium,Database,Engineering,9.1,2,0,Resolved
+INC0208,2025-10-30 04:00,3,4,Zero-Day Exploit,Low,Email Server,IT,16.1,1,0,Contained
+INC0209,2025-05-09 07:00,4,7,Insider Threat,High,Email Server,Research,3.5,3,0,Contained
+INC0210,2025-07-27 12:00,6,12,DDoS,High,Cloud Storage,Research,3.8,2,0,
+INC0211,2025-10-09 00:00,3,0,Ransomware,Medium,Database,Research,2.9,2,0,Contained
+INC0212,2025-05-23 19:00,4,19,Zero-Day Exploit,Low,Authentication System,Operations,12.9,2,0,Ongoing
+INC0213,2025-05-31 19:00,5,19,Phishing,Low,Cloud Storage,Research,17.0,1,0,Contained
+INC0214,2025-08-13 22:00,2,22,Zero-Day Exploit,Low,Database,IT,8.0,1,0,Contained
+INC0215,2025-02-19 06:00,2,6,Man-in-the-Middle,Medium,Network Infrastructure,Finance,12.2,2,0,Escalated
+INC0216,2025-11-09 19:00,6,19,Phishing,Medium,Cloud Storage,IT,2.4,1,0,Contained
+INC0217,2025-03-27 18:00,3,18,DDoS,High,Endpoint,Finance,,2,0,Resolved
+INC0218,2025-07-06 13:00,6,13,Brute Force,High,Email Server,IT,2.6,1,0,Contained
+INC0219,2025-12-01 22:00,0,22,Brute Force,High,Endpoint,Engineering,3.3,4,0,Contained
+INC0220,2025-08-08 01:00,4,1,Ransomware,Low,Cloud Storage,Finance,9.7,1,0,
+INC0221,2025-08-09 20:00,5,20,Insider Threat,Low,Database,Legal,10.0,2,0,Resolved
+INC0222,2025-02-01 07:00,5,7,Man-in-the-Middle,Medium,Cloud Storage,Legal,5.5,2,0,Contained
+INC0223,2025-01-26 04:00,6,4,SQL Injection,Low,Authentication System,Operations,14.4,2,0,Ongoing
+INC0224,2025-03-26 19:00,2,19,SQL Injection,Medium,Endpoint,Operations,4.2,1,0,Contained
+INC0225,2025-02-22 14:00,5,14,SQL Injection,Medium,Email Server,Research,10.1,1,0,Contained
+INC0226,2025-02-25 12:00,1,12,DDoS,High,Cloud Storage,IT,1.1,1,0,Resolved
+INC0227,2025-02-04 08:00,1,8,SQL Injection,High,Database,IT,1.9,2,0,Resolved
+INC0228,2025-05-22 02:00,3,2,Phishing,High,Email Server,IT,3.2,4,0,Resolved
+INC0229,2025-05-04 11:00,6,11,Insider Threat,High,Endpoint,Engineering,1.1,3,1,Resolved
+INC0230,2025-11-13 20:00,3,20,Ransomware,Low,Authentication System,Research,5.8,2,0,Resolved
+INC0231,2025-03-09 16:00,6,16,Man-in-the-Middle,High,Endpoint,HR,1.9,4,0,Resolved
+INC0232,2025-11-19 07:00,2,7,Phishing,Low,Web Server,Finance,9.9,2,0,Contained
+INC0233,2025-05-11 08:00,6,8,SQL Injection,Critical,Network Infrastructure,Legal,0.5,5,1,Data Breach
+INC0234,2025-02-21 18:00,4,18,SQL Injection,Low,Database,Finance,8.2,1,0,Escalated
+INC0235,2025-04-24 18:00,3,18,DDoS,Low,Endpoint,Engineering,15.5,2,0,Contained
+INC0236,2025-11-26 17:00,2,17,SQL Injection,Medium,Database,HR,10.1,2,0,Resolved
+INC0237,2025-03-01 23:00,5,23,Ransomware,Medium,Web Server,IT,5.2,2,0,Contained
+INC0238,2025-10-12 07:00,6,7,DDoS,High,Email Server,Engineering,4.8,1,0,Contained
+INC0239,2025-12-27 13:00,5,13,Zero-Day Exploit,Medium,Web Server,Legal,9.0,2,0,Contained
+INC0240,2025-07-06 08:00,6,8,Brute Force,High,Network Infrastructure,Legal,2.6,5,0,Contained
+INC0241,2025-10-20 13:00,0,13,DDoS,Medium,Email Server,Legal,3.5,1,0,Resolved
+INC0242,2025-07-13 03:00,6,3,SQL Injection,High,Database,,3.9,1,0,Resolved
+INC0243,2025-07-29 06:00,1,6,Zero-Day Exploit,High,Endpoint,Operations,3.0,4,0,Resolved
+INC0244,2025-01-03 04:00,4,4,SQL Injection,Low,Email Server,Engineering,5.0,2,0,Resolved
+INC0245,2025-03-10 17:00,0,17,Man-in-the-Middle,Low,Web Server,Research,4.6,1,0,Contained
+INC0246,2025-12-24 18:00,2,18,Man-in-the-Middle,Medium,Endpoint,Engineering,7.7,2,0,Resolved
+INC0247,2025-03-31 23:00,0,23,Phishing,High,Cloud Storage,IT,4.2,1,0,Resolved
+INC0248,2025-08-02 23:00,5,23,Brute Force,Critical,Email Server,IT,0.5,3,0,Resolved
+INC0249,2025-04-10 06:00,3,6,Man-in-the-Middle,Low,Cloud Storage,IT,6.3,1,0,Contained
+INC0250,2025-12-19 03:00,4,3,Brute Force,High,Database,Finance,3.4,5,0,Data Breach
+INC0251,2025-03-10 19:00,0,19,Ransomware,Critical,Database,Operations,1.3,3,0,Escalated
+INC0252,2025-08-31 06:00,6,6,Brute Force,Critical,Network Infrastructure,Engineering,2.1,1,0,Data Breach
+INC0253,2025-03-20 10:00,3,10,Insider Threat,Low,Database,HR,11.6,2,0,Contained
+INC0254,2025-05-22 12:00,3,12,Insider Threat,Medium,Web Server,Legal,6.4,1,0,Contained
+INC0255,2025-02-24 16:00,0,16,Zero-Day Exploit,Medium,Email Server,Operations,3.3,2,0,Resolved
+INC0256,2025-04-26 01:00,5,1,DDoS,High,Endpoint,Operations,3.8,5,0,Data Breach
+INC0257,2025-06-06 10:00,4,10,Man-in-the-Middle,Medium,Database,Legal,3.1,2,0,Data Breach
+INC0258,2025-09-03 06:00,2,6,DDoS,Low,Authentication System,IT,,2,0,Resolved
+INC0259,2025-12-18 09:00,3,9,Insider Threat,Medium,Web Server,Legal,8.9,2,0,Escalated
+INC0260,2025-08-06 14:00,2,14,Zero-Day Exploit,High,Web Server,Legal,2.6,2,1,Data Breach
+INC0261,2025-03-14 23:00,4,23,Man-in-the-Middle,High,Email Server,Legal,3.0,1,0,Resolved
+INC0262,2025-05-07 00:00,2,0,Phishing,High,Network Infrastructure,Engineering,1.4,5,0,Resolved
+INC0263,2025-12-09 01:00,1,1,Insider Threat,High,Email Server,HR,4.1,5,1,Resolved
+INC0264,2025-10-27 16:00,0,16,Zero-Day Exploit,Medium,Authentication System,Legal,3.8,1,0,Resolved
+INC0265,2025-11-22 10:00,5,10,Brute Force,Critical,Web Server,Legal,1.3,1,0,Resolved
+INC0266,2025-02-06 04:00,3,4,DDoS,Low,Endpoint,Research,15.8,1,0,Resolved
+INC0267,2025-10-25 09:00,5,9,Insider Threat,Low,Network Infrastructure,HR,4.9,1,0,Resolved
+INC0268,2025-05-03 01:00,5,1,SQL Injection,Medium,Endpoint,Finance,2.4,1,0,Resolved
+INC0269,2025-08-12 06:00,1,6,Ransomware,Medium,Network Infrastructure,IT,1.7,1,0,Resolved
+INC0270,2025-03-21 17:00,4,17,SQL Injection,Critical,Endpoint,Research,0.6,4,1,Data Breach
+INC0271,2025-02-13 10:00,3,10,Brute Force,Low,Web Server,IT,11.8,2,0,Escalated
+INC0272,2025-09-22 07:00,0,7,Insider Threat,Low,Web Server,HR,12.3,1,0,Escalated
+INC0273,2025-10-21 14:00,1,14,Ransomware,Medium,Network Infrastructure,Operations,0.7,1,0,Contained
+INC0274,2025-08-07 13:00,3,13,Phishing,High,Network Infrastructure,Engineering,1.5,3,0,Contained
+INC0275,2025-06-14 09:00,5,9,Brute Force,Medium,Database,IT,2.7,2,0,Contained
+INC0276,2025-08-17 08:00,6,8,Brute Force,High,Web Server,Finance,3.1,1,0,Resolved
+INC0277,2025-10-07 15:00,1,15,Zero-Day Exploit,Medium,Network Infrastructure,Finance,10.8,1,0,Contained
+INC0278,2025-07-10 06:00,3,6,Insider Threat,Medium,Network Infrastructure,Engineering,4.8,2,0,Contained
+INC0279,2025-01-21 20:00,1,20,Zero-Day Exploit,Medium,Database,HR,7.6,2,0,Resolved
+INC0280,2025-03-25 02:00,1,2,Zero-Day Exploit,High,Authentication System,Finance,2.9,1,0,Resolved
+INC0281,2025-09-04 00:00,3,0,Brute Force,Medium,Database,Research,5.9,2,0,Resolved
+INC0282,2025-08-10 17:00,6,17,Insider Threat,Critical,Database,HR,1.3,3,0,Escalated
+INC0283,2025-08-27 10:00,2,10,Zero-Day Exploit,Medium,Endpoint,Operations,3.3,1,0,Resolved
+INC0284,2025-08-15 20:00,4,20,Insider Threat,Medium,Authentication System,IT,9.2,1,0,Escalated
+INC0285,2025-04-16 22:00,2,22,Ransomware,High,Cloud Storage,HR,3.3,3,0,Escalated
+INC0286,2025-06-01 21:00,6,21,SQL Injection,Medium,Network Infrastructure,IT,2.7,1,0,Contained
+INC0287,2025-05-18 03:00,6,3,Phishing,Low,Cloud Storage,Engineering,8.8,1,0,Contained
+INC0288,2025-05-27 10:00,1,10,Ransomware,Medium,Email Server,Engineering,5.2,2,0,Escalated
+INC0289,2025-04-06 20:00,6,20,Man-in-the-Middle,Low,Authentication System,Research,10.8,2,0,Resolved
+INC0290,2025-07-12 00:00,5,0,Zero-Day Exploit,Medium,Cloud Storage,HR,7.8,2,0,Resolved
+INC0291,2025-04-07 06:00,0,6,Ransomware,High,Network Infrastructure,Legal,5.2,1,1,Contained
+INC0292,2025-06-04 02:00,2,2,Zero-Day Exploit,Medium,Web Server,Operations,0.1,2,0,Resolved
+INC0293,2025-02-05 08:00,2,8,Man-in-the-Middle,High,Network Infrastructure,Finance,3.0,2,0,Resolved
+INC0294,2025-05-15 06:00,3,6,SQL Injection,Critical,Email Server,Operations,0.2,3,0,Resolved
+INC0295,2025-03-17 07:00,0,7,Ransomware,Low,Email Server,Legal,10.9,2,0,Escalated
+INC0296,2025-01-13 03:00,0,3,DDoS,Critical,Email Server,Legal,1.2,1,0,Data Breach
+INC0297,2025-10-26 14:00,6,14,SQL Injection,High,Database,HR,3.0,3,1,Resolved
+INC0298,2025-06-22 09:00,6,9,Phishing,Low,Authentication System,HR,16.4,2,0,Resolved
+INC0299,2025-10-30 00:00,3,0,Zero-Day Exploit,Medium,Cloud Storage,Finance,4.5,2,0,Resolved
+INC0300,2025-05-09 17:00,4,17,SQL Injection,Low,Email Server,Research,12.0,1,0,Contained
+INC0301,2025-11-14 06:00,4,6,Man-in-the-Middle,Low,Endpoint,Research,14.3,1,0,Resolved
+INC0302,2025-07-30 17:00,2,17,SQL Injection,Medium,Endpoint,HR,0.4,1,0,Contained
+INC0303,2025-12-11 11:00,3,11,Man-in-the-Middle,Medium,Authentication System,Research,0.4,1,0,Resolved
+INC0304,2025-04-04 08:00,4,8,Zero-Day Exploit,Low,Database,HR,14.6,2,0,Contained
+INC0305,2025-09-19 00:00,4,0,Man-in-the-Middle,Low,Authentication System,IT,10.8,2,0,Resolved
+INC0306,2025-10-23 19:00,3,19,Phishing,Medium,Endpoint,Operations,8.8,2,0,Resolved
+INC0307,2025-11-04 09:00,1,9,DDoS,Medium,Network Infrastructure,Operations,12.4,1,0,Escalated
+INC0308,2025-11-09 00:00,6,0,Phishing,Low,Cloud Storage,Legal,8.6,2,0,Resolved
+INC0309,2025-02-05 16:00,2,16,Ransomware,High,Cloud Storage,Legal,3.5,1,0,Contained
+INC0310,2025-10-08 14:00,2,14,Brute Force,High,Network Infrastructure,Operations,1.8,4,0,Escalated
+INC0311,2025-12-27 05:00,5,5,Phishing,High,Email Server,IT,1.9,2,0,Contained
+INC0312,2025-12-10 08:00,2,8,Zero-Day Exploit,Medium,Endpoint,Operations,12.5,1,0,Contained
+INC0313,2025-03-13 02:00,3,2,SQL Injection,Medium,Authentication System,IT,,2,0,Contained
+INC0314,2025-09-04 18:00,3,18,DDoS,Medium,Web Server,Legal,11.4,2,0,Resolved
+INC0315,2025-05-11 16:00,6,16,DDoS,Medium,Network Infrastructure,Engineering,5.7,2,0,Contained
+INC0316,2025-03-19 23:00,2,23,Insider Threat,Low,Cloud Storage,IT,10.9,2,0,Contained
+INC0317,2025-08-30 06:00,5,6,DDoS,Critical,Cloud Storage,Finance,0.9,3,0,Data Breach
+INC0318,2025-12-20 23:00,5,23,Insider Threat,High,Email Server,Engineering,3.1,1,0,Resolved
+INC0319,2025-06-15 18:00,6,18,Ransomware,Critical,Web Server,Legal,2.5,5,0,Ongoing
+INC0320,2025-09-21 11:00,6,11,Zero-Day Exploit,High,Authentication System,Operations,3.8,5,1,Contained
+INC0321,2025-10-05 15:00,6,15,Man-in-the-Middle,Critical,Web Server,Finance,1.5,3,0,Data Breach
+INC0322,2025-03-06 09:00,3,9,SQL Injection,High,Network Infrastructure,HR,4.6,1,0,Contained
+INC0323,2025-11-08 05:00,5,5,Insider Threat,Medium,Email Server,Legal,5.0,1,0,Resolved
+INC0324,2025-11-15 22:00,5,22,Phishing,Low,Web Server,Research,10.8,1,0,Resolved
+INC0325,2025-12-16 18:00,1,18,DDoS,High,Cloud Storage,Engineering,3.8,4,0,Contained
+INC0326,2025-12-11 19:00,3,19,Zero-Day Exploit,Medium,Network Infrastructure,IT,8.0,1,0,Resolved
+INC0327,2025-06-21 03:00,5,3,DDoS,Medium,Authentication System,Legal,4.0,1,0,Resolved
+INC0328,2025-03-27 07:00,3,7,DDoS,High,Network Infrastructure,IT,0.6,2,0,Resolved
+INC0329,2025-02-14 11:00,4,11,Insider Threat,High,Network Infrastructure,Operations,4.0,1,0,Contained
+INC0330,2025-11-18 17:00,1,17,SQL Injection,Critical,Cloud Storage,Engineering,1.1,3,0,Resolved
+INC0331,2025-08-29 21:00,4,21,Insider Threat,High,Authentication System,Engineering,6.4,5,0,Contained
+INC0332,2025-03-12 04:00,2,4,SQL Injection,Low,Cloud Storage,Operations,12.0,1,0,Resolved
+INC0333,2025-01-11 22:00,5,22,DDoS,High,Email Server,Engineering,2.1,1,0,Contained
+INC0334,2025-12-16 02:00,1,2,Zero-Day Exploit,Critical,Database,Engineering,1.3,1,0,Escalated
+INC0335,2025-08-16 04:00,5,4,Brute Force,High,Cloud Storage,Legal,2.0,3,0,Resolved
+INC0336,2025-09-08 07:00,0,7,Phishing,Medium,Cloud Storage,HR,6.8,1,0,Resolved
+INC0337,2025-12-18 11:00,3,11,DDoS,Medium,Web Server,Operations,5.4,2,0,Resolved
+INC0338,2025-04-30 09:00,2,9,SQL Injection,Low,Network Infrastructure,Research,15.2,2,0,Resolved
+INC0339,2025-10-20 08:00,0,8,Man-in-the-Middle,Low,Network Infrastructure,Research,6.0,2,0,Contained
+INC0340,2025-11-12 10:00,2,10,Man-in-the-Middle,High,Endpoint,Research,4.6,4,0,Resolved
+INC0341,2025-02-20 03:00,3,3,Insider Threat,Low,Email Server,Finance,13.4,2,0,Contained
+INC0342,2025-06-24 02:00,1,2,Insider Threat,Low,Database,HR,8.6,2,0,Ongoing
+INC0343,2025-02-01 19:00,5,19,Insider Threat,Medium,Web Server,Legal,4.7,2,0,Resolved
+INC0344,2025-04-17 17:00,3,17,Zero-Day Exploit,High,Email Server,Research,0.1,3,1,Resolved
+INC0345,2025-03-18 17:00,1,17,Man-in-the-Middle,High,Network Infrastructure,Research,4.3,3,0,Resolved
+INC0346,2025-06-26 01:00,3,1,Zero-Day Exploit,High,Email Server,Operations,2.9,5,1,Contained
+INC0347,2025-06-04 12:00,2,12,Zero-Day Exploit,Critical,Cloud Storage,IT,0.5,3,1,Escalated
+INC0348,2025-01-08 10:00,2,10,Insider Threat,Low,Email Server,Finance,5.4,2,0,Resolved
+INC0349,2025-05-04 05:00,6,5,Man-in-the-Middle,Low,Database,Operations,6.4,1,0,Resolved
+INC0350,2025-03-10 08:00,0,8,DDoS,Critical,Cloud Storage,IT,1.2,4,0,Resolved
